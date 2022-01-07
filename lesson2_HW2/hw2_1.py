@@ -4,7 +4,7 @@
 # Элементы списка можно не запрашивать у пользователя, а указать явно, в программе.
 
 
-example_list = ["String", 10, 25.78, False, "True", []]
+example_list = ["String", 5, 10.15, False, "True", []]
 
 for item in example_list:
     print(type(item))

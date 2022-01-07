@@ -13,7 +13,7 @@ rating = [9, 8, 8, 7, 6, 6, 6, 5, 3, 2, 1]
 while True:
     try:
         print(f"Рейтинг = {rating}")
-        user_rate = int(input("Введите новый рейтинг >>> "))
+        user_rate = int(input("Введите новый рейтинг:"))
 
         current_rate_count = rating.count(user_rate)
 
@@ -33,6 +33,6 @@ while True:
 
         print(rating)
     except ValueError:
-        print("Неверное число")
+        print("Неверное число!!!")
     except KeyboardInterrupt:
         exit()
